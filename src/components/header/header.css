@@ -1,0 +1,27 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header > div {
+  margin: 40px;
+  text-align: center;
+}
+
+ul > li {
+  list-style: none;
+}
+
+li > a{
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px){
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
